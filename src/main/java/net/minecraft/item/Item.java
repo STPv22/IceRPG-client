@@ -1041,7 +1041,7 @@ public class Item {
 		registerItem(2265, (String) "record_ward", (new ItemRecord("ward")).setUnlocalizedName("record"));
 		registerItem(2266, (String) "record_11", (new ItemRecord("11")).setUnlocalizedName("record"));
 		registerItem(2267, (String) "record_wait", (new ItemRecord("wait")).setUnlocalizedName("record"));
-		registerItem(332, (String) "iceball", (new ItemIceball()).setUnlocalizedName("iceball"));
+		registerItem(8001, (String) "iceball", (new ItemIceball()).setUnlocalizedName("iceball"));
 	}
 
 
