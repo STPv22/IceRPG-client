@@ -16,7 +16,7 @@ jobs:
       - name: Validate Gradle wrapper
         uses: gradle/actions/wrapper-validation@v3
       - name: Compile javascript
-        run: ./gradlew generateJavaScript
+        run: ./gradlew generateJavaScript --info
       - name: Compile web assets
         run: bash ./CompileEPK.sh
       - name: Upload web files
