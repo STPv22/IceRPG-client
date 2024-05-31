@@ -2,7 +2,7 @@ package net.minecraft.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.projectile.EntitySnowball;
+import net.minecraft.entity.projectile.EntityIceball;
 import net.minecraft.stats.StatList;
 import net.minecraft.world.World;
 
