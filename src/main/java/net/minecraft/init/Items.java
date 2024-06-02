@@ -205,6 +205,7 @@ public class Items {
 	public static Item lead;
 	public static Item name_tag;
 	public static Item command_block_minecart;
+	public static Item iceball;
 	public static Item record_13;
 	public static Item record_cat;
 	public static Item record_blocks;
@@ -220,7 +221,6 @@ public class Items {
 	public static Item prismarine_shard;
 	public static Item prismarine_crystals;
 	public static Item banner;
-	public static Item iceball;
 
 	private static Item getRegisteredItem(String name) {
 		return (Item) Item.itemRegistry.getObject(new ResourceLocation(name));
@@ -402,6 +402,7 @@ public class Items {
 			lead = getRegisteredItem("lead");
 			name_tag = getRegisteredItem("name_tag");
 			command_block_minecart = getRegisteredItem("command_block_minecart");
+			iceball = getRegisteredItem("iceball");
 			record_13 = getRegisteredItem("record_13");
 			record_cat = getRegisteredItem("record_cat");
 			record_blocks = getRegisteredItem("record_blocks");
@@ -417,7 +418,7 @@ public class Items {
 			prismarine_shard = getRegisteredItem("prismarine_shard");
 			prismarine_crystals = getRegisteredItem("prismarine_crystals");
 			banner = getRegisteredItem("banner");
-			iceball = getRegisteredItem("iceball");
+		
 		}
 	}
 }
