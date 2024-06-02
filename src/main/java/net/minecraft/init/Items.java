@@ -42,6 +42,7 @@ public class Items {
 	public static Item arrow;
 	public static Item coal;
 	public static Item diamond;
+	public static Item ruby;
 	public static Item iron_ingot;
 	public static Item gold_ingot;
 	public static Item iron_sword;
@@ -239,6 +240,7 @@ public class Items {
 			arrow = getRegisteredItem("arrow");
 			coal = getRegisteredItem("coal");
 			diamond = getRegisteredItem("diamond");
+			ruby = getRegisteredItem("ruby");
 			iron_ingot = getRegisteredItem("iron_ingot");
 			gold_ingot = getRegisteredItem("gold_ingot");
 			iron_sword = getRegisteredItem("iron_sword");
