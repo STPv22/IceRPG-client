@@ -1579,6 +1579,7 @@ item.horsearmorgold.name=Gold Horse Armor
 item.horsearmordiamond.name=Diamond Horse Armor
 item.prismarineShard.name=Prismarine Shard
 item.prismarineCrystals.name=Prismarine Crystals
+item.iceball.name=Iceball
 
 container.inventory=Inventory
 container.hopper=Item Hopper

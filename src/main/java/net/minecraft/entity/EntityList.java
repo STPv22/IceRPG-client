@@ -72,6 +72,7 @@ import net.minecraft.entity.projectile.EntityLargeFireball;
 import net.minecraft.entity.projectile.EntityPotion;
 import net.minecraft.entity.projectile.EntitySmallFireball;
 import net.minecraft.entity.projectile.EntitySnowball;
+import net.minecraft.entity.projectile.EntityIceball;
 import net.minecraft.entity.projectile.EntityWitherSkull;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.stats.StatBase;
@@ -333,6 +334,7 @@ public class EntityList {
 		addMapping(EntityTNTPrimed.class, EntityTNTPrimed::new, "PrimedTnt", 20);
 		addMapping(EntityFallingBlock.class, EntityFallingBlock::new, "FallingSand", 21);
 		addMapping(EntityFireworkRocket.class, EntityFireworkRocket::new, "FireworksRocketEntity", 22);
+		addMapping(EntityIceball.class, EntityIceball::new, "Iceball", 23);
 		addMapping(EntityArmorStand.class, EntityArmorStand::new, "ArmorStand", 30);
 		addMapping(EntityBoat.class, EntityBoat::new, "Boat", 41);
 		addMapping(EntityMinecartEmpty.class, EntityMinecartEmpty::new,
