@@ -1029,6 +1029,7 @@ public class Item {
 		registerItem(430, (String) "acacia_door", (new ItemDoor(Blocks.acacia_door)).setUnlocalizedName("doorAcacia"));
 		registerItem(431, (String) "dark_oak_door",
 				(new ItemDoor(Blocks.dark_oak_door)).setUnlocalizedName("doorDarkOak"));
+		registerItem(432, (String) "iceball", (new ItemIceball()).setUnlocalizedName("iceball"));
 		registerItem(2256, (String) "record_13", (new ItemRecord("13")).setUnlocalizedName("record"));
 		registerItem(2257, (String) "record_cat", (new ItemRecord("cat")).setUnlocalizedName("record"));
 		registerItem(2258, (String) "record_blocks", (new ItemRecord("blocks")).setUnlocalizedName("record"));
@@ -1041,7 +1042,6 @@ public class Item {
 		registerItem(2265, (String) "record_ward", (new ItemRecord("ward")).setUnlocalizedName("record"));
 		registerItem(2266, (String) "record_11", (new ItemRecord("11")).setUnlocalizedName("record"));
 		registerItem(2267, (String) "record_wait", (new ItemRecord("wait")).setUnlocalizedName("record"));
-		registerItem(8001, (String) "iceball", (new ItemIceball()).setUnlocalizedName("iceball"));
 	}
 
 
