@@ -42,7 +42,6 @@ public class Items {
 	public static Item arrow;
 	public static Item coal;
 	public static Item diamond;
-	public static Item ruby;
 	public static Item iron_ingot;
 	public static Item gold_ingot;
 	public static Item iron_sword;
@@ -207,6 +206,7 @@ public class Items {
 	public static Item name_tag;
 	public static Item command_block_minecart;
 	public static Item iceball;
+	public static Item ruby;
 	public static Item record_13;
 	public static Item record_cat;
 	public static Item record_blocks;
