@@ -111,6 +111,11 @@ public class Bootstrap {
 				return new EntitySnowball(world, iposition.getX(), iposition.getY(), iposition.getZ());
 			}
 		});
+		BlockDispenser.dispenseBehaviorRegistry.putObject(Items.iceball, new BehaviorProjectileDispense() {
+			protected IProjectile getProjectileEntity(World world, IPosition iposition) {
+				return new EntitySnowball(world, iposition.getX(), iposition.getY(), iposition.getZ());
+			}
+		});
 		BlockDispenser.dispenseBehaviorRegistry.putObject(Items.experience_bottle, new BehaviorProjectileDispense() {
 			protected IProjectile getProjectileEntity(World world, IPosition iposition) {
 				return new EntityExpBottle(world, iposition.getX(), iposition.getY(), iposition.getZ());
