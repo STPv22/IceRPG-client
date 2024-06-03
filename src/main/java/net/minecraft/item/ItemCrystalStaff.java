@@ -26,8 +26,8 @@ import net.minecraft.world.World;
  * POSSIBILITY OF SUCH DAMAGE.
  * 
  */
-public class ItemSnowball extends Item {
-	public ItemSnowball() {
+public class ItemCrystalStaff extends Item {
+	public ItemCrystalStaff() {
 		this.maxStackSize = 16;
 		this.setCreativeTab(CreativeTabs.tabMisc);
 	}
