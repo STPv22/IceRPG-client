@@ -860,6 +860,7 @@ public class RenderItem implements IResourceManagerReloadListener {
 		this.registerItem(Items.diamond, "diamond");
 		this.registerItem(Items.iron_ingot, "iron_ingot");
 		this.registerItem(Items.gold_ingot, "gold_ingot");
+		this.registerItem(Items.ruby, "ruby");
 		this.registerItem(Items.iron_sword, "iron_sword");
 		this.registerItem(Items.wooden_sword, "wooden_sword");
 		this.registerItem(Items.wooden_shovel, "wooden_shovel");
