@@ -1580,6 +1580,8 @@ item.horsearmordiamond.name=Diamond Horse Armor
 item.prismarineShard.name=Prismarine Shard
 item.prismarineCrystals.name=Prismarine Crystals
 item.iceball.name=Iceball
+item.rock.name=Rock
+item.crystalStaff.name=Crystal Staff
 
 container.inventory=Inventory
 container.hopper=Item Hopper
