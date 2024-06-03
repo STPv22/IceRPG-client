@@ -845,6 +845,7 @@ public class RenderItem implements IResourceManagerReloadListener {
 		this.registerBlock(Blocks.chest, "chest");
 		this.registerBlock(Blocks.trapped_chest, "trapped_chest");
 		this.registerBlock(Blocks.ender_chest, "ender_chest");
+		this.registerBlock(Blocks.ruby_block, "ruby_block");
 		this.registerItem(Items.iron_shovel, "iron_shovel");
 		this.registerItem(Items.iron_pickaxe, "iron_pickaxe");
 		this.registerItem(Items.iron_axe, "iron_axe");

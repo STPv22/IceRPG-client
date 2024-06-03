@@ -730,6 +730,7 @@ public class Item {
 		registerItemBlock(Blocks.stone_slab2,
 				(new ItemSlab(Blocks.stone_slab2, Blocks.stone_slab2, Blocks.double_stone_slab2))
 						.setUnlocalizedName("stoneSlab2"));
+		registerItemBlock(Blocks.ruby_block);
 		registerItem(256, (String) "iron_shovel",
 				(new ItemSpade(Item.ToolMaterial.IRON)).setUnlocalizedName("shovelIron"));
 		registerItem(257, (String) "iron_pickaxe",
