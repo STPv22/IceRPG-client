@@ -1545,7 +1545,7 @@ public class Block {
 		registerBlock(197, (String) "dark_oak_door", (new BlockDoor(Material.wood)).setHardness(3.0F)
 				.setStepSound(soundTypeWood).setUnlocalizedName("doorDarkOak").disableStats());
 		registerBlock(198, (String) "ruby_block",
-				(new Block(Material.iron, MapColor.nethherrackColor)).setHardness(5.0F).setResistance(10.0F)
+				(new Block(Material.iron, MapColor.diamondColor)).setHardness(5.0F).setResistance(10.0F)
 						.setStepSound(soundTypeMetal).setUnlocalizedName("blockRuby")
 						.setCreativeTab(CreativeTabs.tabBlock));
 		blockRegistry.validateKey();
