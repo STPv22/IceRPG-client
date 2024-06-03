@@ -1056,6 +1056,7 @@ public class RenderItem implements IResourceManagerReloadListener {
 				return new ModelResourceLocation("banner", "inventory");
 			}
 		});
+		this.registerItem(Items.iceball, "iceball");
 		this.registerItem(Items.record_13, "record_13");
 		this.registerItem(Items.record_cat, "record_cat");
 		this.registerItem(Items.record_blocks, "record_blocks");
