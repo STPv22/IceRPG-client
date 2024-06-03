@@ -206,6 +206,7 @@ public class Items {
 	public static Item name_tag;
 	public static Item command_block_minecart;
 	public static Item iceball;
+	public static Item crystal_staff;
 	public static Item ruby;
 	public static Item record_13;
 	public static Item record_cat;
@@ -405,6 +406,7 @@ public class Items {
 			name_tag = getRegisteredItem("name_tag");
 			command_block_minecart = getRegisteredItem("command_block_minecart");
 			iceball = getRegisteredItem("iceball");
+			crystal_staff = getRegisteredItem("crystal_staff");
 			record_13 = getRegisteredItem("record_13");
 			record_cat = getRegisteredItem("record_cat");
 			record_blocks = getRegisteredItem("record_blocks");

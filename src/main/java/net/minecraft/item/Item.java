@@ -1031,7 +1031,9 @@ public class Item {
 		registerItem(431, (String) "dark_oak_door",
 				(new ItemDoor(Blocks.dark_oak_door)).setUnlocalizedName("doorDarkOak"));
 		registerItem(432, (String) "iceball", (new ItemIceball()).setUnlocalizedName("iceball"));
-		registerItem(433, (String) "ruby",
+		registerItem(433, (String) "crystal_staff",
+				(new ItemCrystalStaff()).setUnlocalizedName("crystal_staff").setCreativeTab(CreativeTabs.tabMaterials));
+		registerItem(434, (String) "ruby",
 				(new Item()).setUnlocalizedName("ruby").setCreativeTab(CreativeTabs.tabMaterials));
 		registerItem(2256, (String) "record_13", (new ItemRecord("13")).setUnlocalizedName("record"));
 		registerItem(2257, (String) "record_cat", (new ItemRecord("cat")).setUnlocalizedName("record"));
