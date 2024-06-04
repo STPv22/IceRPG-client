@@ -1,7 +1,7 @@
 package net.minecraft.entity.projectile;
 
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.monster.EntityBlaze;
+import net.minecraft.entity.monster.EntityIronGolem;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.MovingObjectPosition;
@@ -27,16 +27,16 @@ import net.minecraft.world.World;
  * POSSIBILITY OF SUCH DAMAGE.
  * 
  */
-public class EntityIceball extends EntityThrowable {
-	public EntityIceball(World worldIn) {
+public class EntityRock extends EntityThrowable {
+	public EntityRock(World worldIn) {
 		super(worldIn);
 	}
 
-	public EntityIceball(World worldIn, EntityLivingBase throwerIn) {
+	public EntityRock(World worldIn, EntityLivingBase throwerIn) {
 		super(worldIn, throwerIn);
 	}
 
-	public EntityIceball(World worldIn, double x, double y, double z) {
+	public EntityRock(World worldIn, double x, double y, double z) {
 		super(worldIn, x, y, z);
 	}
 
@@ -46,7 +46,7 @@ public class EntityIceball extends EntityThrowable {
 	protected void onImpact(MovingObjectPosition parMovingObjectPosition) {
 		if (parMovingObjectPosition.entityHit != null) {
 			byte b0 = 5;
-			if (parMovingObjectPosition.entityHit instanceof EntityBlaze) {
+			if (parMovingObjectPosition.entityHit instanceof EntityIronGolem) {
 				b0 = 7;
 			}
 
