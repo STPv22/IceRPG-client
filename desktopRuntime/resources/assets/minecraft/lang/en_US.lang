@@ -1310,6 +1310,7 @@ tile.redstoneLight.name=Redstone Lamp
 tile.cocoa.name=Cocoa
 tile.enderChest.name=Ender Chest
 tile.oreRuby.name=Ruby Ore
+tile.blockRuby.name=Block of Ruby
 tile.oreEmerald.name=Emerald Ore
 tile.blockEmerald.name=Block of Emerald
 tile.blockRedstone.name=Block of Redstone
