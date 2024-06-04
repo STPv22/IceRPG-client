@@ -1034,6 +1034,8 @@ public class Item {
 		registerItem(433, (String) "crystal_staff",
 				(new ItemCrystalStaff()).setUnlocalizedName("crystal_staff").setCreativeTab(CreativeTabs.tabMisc));
 		registerItem(434, (String) "rock", (new ItemRock()).setUnlocalizedName("rock"));
+		registerItem(435, (String) "earth_bracelet",
+				(new ItemArmor(ItemArmor.ArmorMaterial.GOLD, 3, 1)).setUnlocalizedName("braceletEarth"));
 		registerItem(436, (String) "ruby",
 				(new Item()).setUnlocalizedName("ruby").setCreativeTab(CreativeTabs.tabMaterials));
 		registerItem(2256, (String) "record_13", (new ItemRecord("13")).setUnlocalizedName("record"));
