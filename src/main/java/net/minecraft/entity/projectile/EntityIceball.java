@@ -45,7 +45,7 @@ public class EntityIceball extends EntityThrowable {
 	 */
 	protected void onImpact(MovingObjectPosition parMovingObjectPosition) {
 		if (parMovingObjectPosition.entityHit != null) {
-			byte b0 = 5;
+			byte b0 = 4;
 			if (parMovingObjectPosition.entityHit instanceof EntityBlaze) {
 				b0 = 7;
 			}
