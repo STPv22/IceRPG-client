@@ -408,7 +408,6 @@ public class Items {
 			command_block_minecart = getRegisteredItem("command_block_minecart");
 			iceball = getRegisteredItem("iceball");
 			crystal_staff = getRegisteredItem("crystal_staff");
-			earth_bracelet = (ItemArmor) getRegisteredItem("earth_bracelet");
 			rock = getRegisteredItem("rock");
 			record_13 = getRegisteredItem("record_13");
 			record_cat = getRegisteredItem("record_cat");
