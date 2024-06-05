@@ -1036,6 +1036,7 @@ public class Item {
 		registerItem(434, (String) "rock", (new ItemRock()).setUnlocalizedName("rock"));
 		registerItem(436, (String) "ruby",
 				(new Item()).setUnlocalizedName("ruby").setCreativeTab(CreativeTabs.tabMaterials));
+		registerItem(437, (String) "magic_book", (new ItemMagicBook()).setUnlocalizedName("magicBook"));
 		registerItem(2256, (String) "record_13", (new ItemRecord("13")).setUnlocalizedName("record"));
 		registerItem(2257, (String) "record_cat", (new ItemRecord("cat")).setUnlocalizedName("record"));
 		registerItem(2258, (String) "record_blocks", (new ItemRecord("blocks")).setUnlocalizedName("record"));
