@@ -1583,7 +1583,7 @@ item.prismarineCrystals.name=Prismarine Crystals
 item.iceball.name=Iceball
 item.rock.name=Rock
 item.crystal_staff.name=Crystal Staff
-item.magic_book.name=Book Of Wizardry
+item.magicBook.name=Book Of Wizardry
 
 container.inventory=Inventory
 container.hopper=Item Hopper
