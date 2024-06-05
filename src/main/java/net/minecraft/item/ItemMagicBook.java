@@ -2,20 +2,9 @@ package net.minecraft.item;
 
 import java.util.List;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.inventory.Slot;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTTagList;
-import net.minecraft.nbt.NBTTagString;
-import net.minecraft.network.play.server.S2FPacketSetSlot;
 import net.minecraft.stats.StatList;
-import net.minecraft.util.ChatComponentProcessor;
-import net.minecraft.util.ChatComponentText;
-import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.util.IChatComponent;
-import net.minecraft.util.StatCollector;
-import net.minecraft.util.StringUtils;
 import net.minecraft.world.World;
 
 /**+
@@ -42,8 +31,5 @@ public class ItemMagicBook extends Item {
 	public ItemMagicBook() {
 		this.setMaxStackSize(1);
 		this.setCreativeTab(CreativeTabs.tabMisc);
-	}
-	public boolean hasEffect(ItemStack var1) {
-		return true;
 	}
 }
