@@ -1582,7 +1582,8 @@ item.prismarineShard.name=Prismarine Shard
 item.prismarineCrystals.name=Prismarine Crystals
 item.iceball.name=Iceball
 item.rock.name=Rock
-item.crystal_staff.name=Crystal Staff
+item.staffCrystal.name=Crystal Staff
+item.staffThunder.name=THUNDERR
 item.magicBook.name=Book Of Wizardry
 
 container.inventory=Inventory
