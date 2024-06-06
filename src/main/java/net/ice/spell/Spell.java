@@ -8,8 +8,5 @@ import net.minecraft.world.World;
 public class Spell {
 
         public void spellLightning() {
-		    if (!world.isRemote) {
-			    world.spawnEntityInWorld(new EntityLightningBolt(world, playerLocation.X, playerLocation.Y, playerLocation.Z));
-		    }
         }
 }
