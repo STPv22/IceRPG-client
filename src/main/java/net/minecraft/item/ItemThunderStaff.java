@@ -2,7 +2,6 @@ package net.minecraft.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.effect.EntityThunderBolt;
 import net.minecraft.stats.StatList;
 import net.minecraft.world.World;
 
@@ -30,18 +29,5 @@ public class ItemThunderStaff extends Item {
 	public ItemThunderStaff() {
 		this.maxStackSize = 1;
 		this.setCreativeTab(CreativeTabs.tabMisc);
-	}
-
-	/**+
-	 * Called whenever this item is equipped and the right mouse
-	 * button is pressed. Args: itemStack, world, entityPlayer
-	 */
-	public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer entityplayer) {
-		if (!world.isRemote) {
-			world.spawnEntityInWorld(new EntityThunderBolt(world, entityplayer));
-		}
-
-		entityplayer.triggerAchievement(StatList.objectUseStats[Item.getIdFromItem(this)]);
-		return itemstack;
 	}
 }
