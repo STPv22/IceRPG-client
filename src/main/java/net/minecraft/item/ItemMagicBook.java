@@ -2,6 +2,8 @@ package net.minecraft.item;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
 import net.minecraft.stats.StatList;
 import net.minecraft.world.World;
 
@@ -29,5 +31,11 @@ public class ItemMagicBook extends Item {
 	public ItemMagicBook() {
 		this.maxStackSize = 16;
 		this.setCreativeTab(CreativeTabs.tabMisc);
+	}
+
+	public ItemStack onItemRightClick(ItemStack itemstack, World var2, EntityPlayer entityplayer) {
+		entityplayer.displayGUIBook(itemstack);
+		entityplayer.triggerAchievement(StatList.objectUseStats[Item.getIdFromItem(this)]);
+		return itemstack;
 	}
 }
