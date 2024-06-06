@@ -29,7 +29,7 @@ import net.minecraft.world.World;
  */
 public class ItemMagicBook extends Item {
 	public ItemMagicBook() {
-		this.setMaxStackSize(1);
+		this.setMaxStackSize = 1;
 		this.setCreativeTab(CreativeTabs.tabMisc);
 	}
 }
