@@ -28,7 +28,7 @@ import net.minecraft.world.World;
  */
 public class ItemThunderStaff extends Item {
 	public ItemThunderStaff() {
-		this.maxStackSize(1);
+		this.maxStackSize = 1;
 		this.setCreativeTab(CreativeTabs.tabMisc);
 	}
 

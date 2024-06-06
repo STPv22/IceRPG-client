@@ -1,7 +1,5 @@
 package net.minecraft.item;
 
-import java.util.List;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.stats.StatList;
