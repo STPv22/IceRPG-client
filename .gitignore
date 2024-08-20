@@ -14,3 +14,8 @@ desktopRuntime/options.txt
 desktopRuntime/_eagstorage*
 desktopRuntime/filesystem/*
 desktopRuntime/downloads/*
+javascript/assets.epk
+javascript/classes.js.map
+javascript/EaglercraftX*
+javascript/js/*
+javascript/classes.js
